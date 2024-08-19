@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using Engine.ViewModels;
+using System.Windows;
 
 namespace soscrpg
 {
@@ -7,9 +8,14 @@ namespace soscrpg
     /// </summary>
     public partial class MainWindow : Window
     {
+        private GameSession gs;
         public MainWindow()
         {
             InitializeComponent();
+            gs = new GameSession();
+            DataContext = gs;
         }
+
+
     }
 }
