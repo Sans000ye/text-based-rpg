@@ -12,10 +12,16 @@ namespace soscrpg
         public MainWindow()
         {
             InitializeComponent();
-            gs = new GameSession();
-            DataContext = gs;
-        }
 
+            gs = new GameSession();
+
+            DataContext = gs;
+
+        }
+        private void Exp_gain (object sender, RoutedEventArgs e)
+        {
+            gs.CurrentPlayer.EXP = gs.CurrentPlayer.EXP + 10;
+        }
 
     }
 }
