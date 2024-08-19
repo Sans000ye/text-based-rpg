@@ -1,9 +1,4 @@
 ﻿using Engine.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Engine.ViewModels
 {
@@ -16,5 +11,5 @@ namespace Engine.ViewModels
             CurrentPlayer.Name = "Scott";
             CurrentPlayer.money = 1000000;
         }
-    } 
+    }
 }
