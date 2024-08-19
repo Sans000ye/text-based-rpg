@@ -14,7 +14,7 @@ namespace Engine.ViewModels
         {
             CurrentPlayer = new Players();
             CurrentPlayer.Name = "Scott";
-            CurrentPlayer.money = 100000;
+            CurrentPlayer.money = 1000000;
         }
-    }
+    } 
 }
