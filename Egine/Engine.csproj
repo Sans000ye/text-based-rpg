@@ -6,4 +6,26 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\Places\farm garden.png" />
+    <None Remove="Images\Places\FarmFields.png" />
+    <None Remove="Images\Places\FarmHouse.png" />
+    <None Remove="Images\Places\home.png" />
+    <None Remove="Images\Places\SpiderForest.png" />
+    <None Remove="Images\Places\TownGate.png" />
+    <None Remove="Images\Places\TownSquare.png" />
+    <None Remove="Images\Places\Trader.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Places\farm garden.png" />
+    <Resource Include="Images\Places\FarmFields.png" />
+    <Resource Include="Images\Places\FarmHouse.png" />
+    <Resource Include="Images\Places\home.png" />
+    <Resource Include="Images\Places\SpiderForest.png" />
+    <Resource Include="Images\Places\TownGate.png" />
+    <Resource Include="Images\Places\TownSquare.png" />
+    <Resource Include="Images\Places\Trader.png" />
+  </ItemGroup>
+
 </Project>
